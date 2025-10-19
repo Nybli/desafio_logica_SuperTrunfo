@@ -13,13 +13,8 @@ Um jogo interativo em linguagem **C** onde você compara cartas de países com b
 
 - **Menu Interativo**: Usuário escolhe os **atributos que deseja comparar**.
 
-- **Comparação de Cartas**: O programa determina o vencedor baseado no atributo selecionado:
+- **Comparação de Cartas**: O programa determina o vencedor baseado nos atributos selecionados:
   - **Maior valor vence**, exceto para **Densidade Populacional**, onde **o menor valor vence**.
-
-- **Exibição de Resultados**: Após a comparação, o sistema exibe:
-  - Qual carta venceu
-  - Qual atributo foi utilizado
-  - A regra aplicada
 
 ## 📥 Atributos das Cartas
 
@@ -36,16 +31,17 @@ Um jogo interativo em linguagem **C** onde você compara cartas de países com b
 
 ## 📤 Saída de Dados
 
-- Os atributos escolhidos são exibidos de forma **organizada**.
-- O resultado da comparação é mostrado, indicando:
-  - 🏆 **O país vencedor**
-  - 📌 **O atributo utilizado**
-  - ⚖️ **A regra aplicada** (**maior ou menor valor**)
+- **Exibição de Resultados**: Após a comparação, o sistema exibe:
+  - O nome dos dois países
+  - Os dois atributos usados na comparação
+  - Os valores de cada atributo para cada carta
+  - A soma dos atributos para cada carta
+  - Qual carta venceu (ou se houve empate)
 
 ## 📚 Regras do Jogo
 
 - Cada carta representa um **país**.
-- O jogador escolhe **um atributo** para comparar.
+- O jogador escolhe **dois atributos** para comparar.
 - O país com o **melhor valor vence a rodada**:
   - Para **População**, **Área**, **PIB** e **Pontos Turísticos** → **Maior valor vence**
   - Para **Densidade Populacional** → **Menor valor vence** ✅
