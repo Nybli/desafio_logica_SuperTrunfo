@@ -1,4 +1,4 @@
-**🃏 Desafio Super Trunfo - Países 🌍**
+# 🃏 Desafio Super Trunfo - Países 🌍
 
 Um jogo interativo em linguagem **C** onde você compara cartas de países com base em diferentes atributos. Inspirado no clássico **Super Trunfo**, o jogo permite comparar dois países e determinar o vencedor de acordo com o atributo escolhido.
 
